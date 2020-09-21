@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en" dir="ltr">
+<head>
+<base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Irish Life | Travel | Work | Experience | Life Style</title>
+    <!-- Meta Description -->
+    <meta name="description" content="-- content --">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" />
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/c8a0926547.js" crossorigin="anonymous"></script>
+    <!-- Custom Scss/Css -->
+
+    <!-- Angular JS form Root Source Folder + UiRouter CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.0/angular.js" integrity="sha512-CiKQCmN86Y1I8Ewkt2gGnSNmsiVrS9Ez5MoudCBhTiBJScg+GjA9OlKdaeI0IuxdCl43Fs5x5zpeew2hfOatOA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.0/angular-route.js" integrity="sha512-2IRHPsyDdFUkxs5Xtuea5UCHYoUjrmNlXqLS6BVCkn4wJUr1BhG8LuLdmcbqCxynWiqfqgc8H7elEib7SV8o8Q==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top main-menu">
+  
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item ho-item"><a class="nav-link link-item sliding-middle-out" href="home">Home</span></a></li>
+        <li class="nav-item pr-item"><a class="nav-link link-item sliding-middle-out" href="trip">Trip</a></li>
+        <li class="nav-item ex-item"><a class="nav-link link-item sliding-middle-out" href="work">Work</a></li>
+        <li class="nav-item sk-item"><a class="nav-link link-item sliding-middle-out" href="life">Life</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- SECTION AREA -->
+  <div class="container-fluid section"> <!-- MAIN CONTAINER -->
+    <div class="row"> <!-- MAIN ROW -->
+      <div ng-view class="col"> <!-- MAIN SECTION COL-->
+        <!-- views Loadings -->
+
+
+
+        <!-- views Loadings -->
+      </div>
+    </div> <!--END OF CONTENT ROW -->
+
+    </div> <!-- End of MAIN SECTION COL-->
+    
+
+    <!-- Custom AngularJS App +  Route + Controller JS -->
+        <script src="source/app.js"></script>
+        <script src="source/router.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
