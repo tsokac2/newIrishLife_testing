@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="public/css/index.css">
 </head>
 <body>
+    <!-- <base href="/"> -->
 <!--LEFT NAV-->
 <nav class="container-fluid d-none d-md-block">
     <div class="row justify-content-center">
@@ -124,8 +125,7 @@
         </div>
     </div>
 </nav>
-
- <!-- Modal Sing In -->
+<!-- Modal Sing In -->
  <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content sing-in-modal">    
@@ -192,7 +192,6 @@
         </div>
     </div>
 </div>
-
 <!-- Modal Log In -->
 <div class="modal fade" id="log-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -252,191 +251,232 @@
         <!-- MAIN ROW --> 
         <div class="row justify-content-center p-4"> 
             <div class="col">
-                <!--HOME - INTRO PITCH - SECTION ICONS -->
-                    <section class="section-home">
-                        <!-- Scene Quote-->
-                        <div class="row justify-content-center">
-                            <div class="col-11 col-sm-6 col-md-4">
-                                <div class="row quote-borders p-2"></div>
-                                    <div class="row justify-content-center text-center quote">
-                                        <div class="col-10">
-                                            <h2>Bilbo</h2>
-                                            <p>"Can I help you?"</p>
-                                        </div>
-                                        <div class="col-12 gandalf">
-                                            <h2>Gandalf</h2>
-                                            <p>"That remains to be seen...</p>
-                                            <p>I'm looking for someone to share in an <strong>Adventure!</strong>"</p>
-                                        </div>
-                                        <div class="col-10">
-                                            <h2>Bilbo</h2>
-                                            <p>"<strong>Adventure??</strong>"</p>
-                                        </div>
-                                    </div>
-                                <div class="row quote-borders p-2"></div>
+                <!--WORK - INTRO PITCH - SECTION ICONS -->
+                <section class="section-work">
+                    <div class="row justify-content-center">
+                        <!-- Breaking point -->
+                        <div class="col text-center m-0">
+                            <div class="row justify-content-center footer-line">
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                                <div class="col-3 col-sm-1 g"></div>
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
                             </div>
-                            <!-- Intro Pitch -->
-                            <div class="col-10 intro-pitch">
-                                <div class="row justify-content-center pitch-wrap">
-                                    <div class="col-12 col-md-6 ">
-                                        <h4>HELOO PEOPLE</h4>
-                                        <h1>If you watch</h1>
-                                        <p><span class="font-italic">"The Hobbit: An Unexpected Journey"</span> 
-                                            you will understand, 
-                                            if not, we highly recommended to 
-                                            watch the film or read a book...both rocks!
+                        </div>
+                        <div class="col-12 text-center">
+                            <h1>WORK</h1>
+                        </div>
+                        <!-- Intro Pitch -->
+                        <div class="col-12 col-sm-8 col-md-10 col-lg-8">
+                            <div class="row justify-content-center">
+                                <div class="col col-md-8 text-center  intro-trip">
+                                    <div class="text-wrap">
+                                        <p class="text-center">
+                                            <strong>Finding</strong> work in <strong>Ireland</strong> can be 
+                                            difficult but with the correct preparation, advice, and planning this task can be 
+                                            made a lot <strong>easier.</strong>
                                         </p>
                                         <p>
-                                            <strong>Now, on to business!</strong><br> 
-                                            If you are planing or even 
-                                            considering moving to Ireland, this is an awesome 
-                                            starting point for you!
-                                        </p>    
-                                        <p>
-                                            Here you can find some key info when you're planing your
-                                            <strong>Irish Adventure...</strong>
+                                            As with most countries, most <strong>jobs</strong> can be found in major cities so if you are 
+                                            living in <strong>Dublin,</strong> <strong>Galway</strong> or <strong>Cork</strong> 
+                                            there is more chance of finding a job in <strong>Ireland</strong>.
                                         </p>
-
-                                        <p>
-                                            If you scroll down, you will see 
-                                            3 main sections that you need to make this happen nice and smooth...<br>
-                                            <strong>Let's roll . . .</strong>
-                                        </p>
-                                    </div>
-
-                                    <!-- Composition -->
-                                    <div class="col-12 col-md-6 composition mt-4">
-                                        <img src="public\img\01.png" class="comp-photo o"  alt="Photo 01">
-                                        <img src="public\img\02.png" class="comp-photo t"  alt="Photo 01">
-                                        <img src="public\img\03.png" class="comp-photo te" alt="Photo 01">
-                                    </div>
-                                
-                                    <!--Icons overview-->
-                                    <div class="col overview">
-                                        <div class="row justify-content-center">
-                                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center sec-wrap">
-                                                <div class="ic-wrap">
-                                                    <i class="fas fa-plane-departure"></i>
-                                                </div>
-                                                
-                                                <h2 class="text-left">Trip</h2>
-                                                <p>A handy section where you have the most popular web services regarding 
-                                                booking a plane ticket and some tips and tricks when flying to Dublin, Ireland!
-                                                </p>
-                                            </div>
-
-                                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center sec-wrap">
-                                                <div class="ic-wrap">
-                                                    <i class="fas fa-user-tie"></i>
-                                                </div>
-                                                <h2 class="text-left">Work</h2>
-                                                <p>It is all about you and how you sell yourself, 
-                                                    plus how to find cool and possible free online courses, 
-                                                    for personal growth and development!
-                                                </p>
-                                            </div>
-
-                                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center sec-wrap">
-                                                <div class="ic-wrap">
-                                                    <i class="fas fa-hand-spock"></i>
-                                                </div>
-                                                <h2 class="text-left">Life</h2>
-                                                <p>Well, now we are living in a <strong>"strange"</strong> time regarding social gatherings. 
-                                                    As soon this is over you can hit all "hot" spots around Ireland and Dublin!
-                                                </p>
-                                            </div>
-
-                                            <div class="col-6 col-md-4 col-lg-3 col-xl-2  text-center sec-wrap">
-                                                <div class="ic-wrap">
-                                                    <i class="fas fa-info-circle"></i>
-                                                </div>
-                                                <h2 class="text-left">News</h2>
-                                                <p>Received our news and updates on a regular basis regarding jobs, 
-                                                    business events, lifestyle, etc. 
-                                                    Maybe you have an idea for the site section...we are listening!
-                                                </p>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                
-            </div><!---->
-        </div><!---->
-    </div><!---->
+                        <div class="col-12 text-center">
+                            <h1 class="sub-h1">START HERE</h1>
+                        </div>
 
-<!-- FOOTER -->
-    <footer class="container-fluid">
-        <div class="row justify-content-center border-top">
-            <!-- Left Nav -->
-            <div class="col-12 text-center info">
-                <ul class="link-wrap">
-                    <li class="r"><a class="text-decoration-none flex-link" href="index.html">HOME</a> </li>
-                    <li class="r"><a class="text-decoration-none flex-link" href="trip.html">TRIP</a></li>
-                    <li><a class="text-decoration-none flex-link" href="work.html">WORK</a></li>
-                    <li class="l"><a class="text-decoration-none flex-link " href="life.html">LIFE</a></li>
-                  </ul>
-            </div>
-            <div class="col col-lg-10">
-                <!-- Footer New Letter -->
-                <div class="row justify-content-center news">
-                    <div class="col-12 text-center">
-                        <h2>Get monthly updates and free resources</h2>
-                        <form action="post" class="mt-4">
+                        <!-- Link Cards -->
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
+                            <div class="wrap">
+                                <a href="https://www.irishjobs.ie/" target="_blank" class="card-link">
+                                    <img src="public\img\i-jobs.png" class="img-fluid" alt="Irish Jobs">
+                                    <h2>I-JOBS</h2>
+                                    <p class="text-center"><i class="fas fa-project-diagram"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://ie.indeed.com/" target="_blank" class="card-link">
+                                    <img src="public\img\indeed.png" class="img-fluid" alt="Indeed">
+                                    <h2>INDEED</h2>
+                                    <p class="text-center"><i class="fas fa-user-tie"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            
+                            <div class="wrap">
+                                <a href="https://jobbio.com/?country=ie" target="_blank" class="card-link">
+                                    <img src="public\img\jobbio.png" class="img-fluid" alt="Jobbio">
+                                    <h2>JOBBIO</h2>
+                                    <p class="text-center"><i class="fas fa-project-diagram"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://www.monster.ie/" target="_blank" class="card-link">
+                                    <img src="public\img\monster.png" class="img-fluid" alt="Monster">
+                                    <h2>MONSTER</h2>
+                                    <p class="text-center"><i class="fas fa-user-tie"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://www.careerjet.ie/" target="_blank" class="card-link">
+                                    <img src="public\img\carrer.png" class="img-fluid" alt="Carrer">
+                                    <h2>C-JET</h2>
+                                    <p class="text-center"><i class="fas fa-project-diagram"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://www.computerfutures.com/en-gb/" target="_blank" class="card-link">
+                                    <img src="public\img\cf.png" class="img-fluid" alt="Computer Features">
+                                    <h2>COM-F</h2>
+                                    <p class="text-center"><i class="fas fa-user-tie"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Breaking point -->
+                        <div class="col-12 text-center mt-4">
+                            <div class="row justify-content-center footer-line">
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                                <div class="col-3 col-sm-1 g"></div>
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                            </div>
+                        </div>
+
+                        <!-- Hop On -->
+                        <div class="col-12 text-center mt-4">
+                            <h1 class="sub-h1">CV TIPS</h1>
+                        </div>
+                        <!-- Hop On Text-->
+                        <div class="col-12 col-sm-8 col-md-10 col-lg-8">
                             <div class="row justify-content-center">
-                                <div class="col-12 col-sm-10">
-                                    <input type="email" id="newsletter" class="col-7 text-center" placeholder="Enter your email address*" required>
-                                </div>
-                                <div class="col-7 col-sm-4 text-center mt-4">
-                                    <button type="submit" class="news-btn">SUBSCRIBE</button>
+                                <div class="col col-md-8 text-center intro-trip">
+                                    <div class="text-wrap">
+                                        <p class="text-center">
+                                            If you are interested in some online education to <strong>"muscle-up"</strong> 
+                                            your CV here are great starting points...
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
-                       
+                        </div>
+
+                        <!-- Link Cards -->
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
+                            <div class="wrap">
+                                <a href="https://codeinstitute.net/" target="_blank" class="card-link">
+                                    <img src="public\img\code.png" class="img-fluid" alt="Code Institute">
+                                    <h2>CODE-I</h2>
+                                    <p class="text-center"><i class="fas fa-graduation-cap"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://springboardcourses.ie/" target="_blank" class="card-link">
+                                    <img src="public\img\spring.png" class="img-fluid" alt="Springboard">
+                                    <h2>SPRING-B</h2>
+                                    <p class="text-center"><i class="fas fa-graduation-cap"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            
+                            <div class="wrap">
+                                <a href="https://www.ucd.ie" target="_blank" class="card-link">
+                                    <img src="public\img\ucd.png" class="img-fluid" alt="UCD">
+                                    <h2>UCD</h2>
+                                    <p class="text-center"> <i class="fas fa-caret-down"></i> </p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!-- Breaking point -->
-                <div class="row justify-content-center footer-line">
-                    <div class="col-2 l"></div>
-                    <div class="col-1 g"></div>
-                    <div class="col-2 l"></div>
-                </div>
-                <!-- Social links -->
-                <div class="row justify-content-center social pb-4">
-                    <!-- IN -->
-                    <div class="social-wrap">
-                        <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                </section>
+        </div><!---->
+    </div><!---->
+</div><!---->
+
+<!-- FOOTER -->
+<footer class="container-fluid">
+<div class="row justify-content-center border-top">
+    <!-- Left Nav -->
+    <div class="col-12 text-center info">
+        <ul class="link-wrap">
+            <li class="r"><a class="text-decoration-none flex-link" href="index.html">HOME</a> </li>
+            <li class="r"><a class="text-decoration-none flex-link" href="trip.html">TRIP</a></li>
+            <li><a class="text-decoration-none flex-link" href="work.html">WORK</a></li>
+            <li class="l"><a class="text-decoration-none flex-link " href="life.html">LIFE</a></li>
+          </ul>
+    </div>
+    <div class="col col-lg-10">
+        <!-- Footer New Letter -->
+        <div class="row justify-content-center news">
+            <div class="col-12 text-center">
+                <h2>Get monthly updates and free resources</h2>
+                <form action="post" class="mt-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-10">
+                            <input type="email" id="newsletter" class="col-7 text-center" placeholder="Enter your email address*" required>
+                        </div>
+                        <div class="col-7 col-sm-4 text-center mt-4">
+                            <button type="submit" class="news-btn">SUBSCRIBE</button>
+                        </div>
                     </div>
-                    <!-- TW -->
-                    <div class="social-wrap">
-                        <a href="https://twitter.com/?lang=en" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <!-- FB -->
-                    <div class="social-wrap">
-                        <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                    <!-- PI -->
-                    <div class="social-wrap">
-                        <a href="https://www.pinterest.ie/" class="social-link" target="_blank"><i class="fab fa-pinterest"></i></a>
-                    </div>
-                </div>
-                <!-- Copy -->
-                <div class="row justify-content-center copy">
-                    <div class="col-10 col-sm-6 text-center copy-ts">
-                        <p>&#169; NewIrishLife 2020 | All rights reserved</p>
-                    </div>
-                    <div class="col-8 col-sm-6 text-center copy-ts">
-                        <p>Design by <a href="http://www.tomislavsokac.com/home" target="_blank">www.tomislavsokac.com</a></p>
-                    </div>
-                </div>
+                </form>
+               
             </div>
         </div>
-    </footer>
+        <!-- Breaking point -->
+        <div class="row justify-content-center footer-line">
+            <div class="col-2 l"></div>
+            <div class="col-1 g"></div>
+            <div class="col-2 l"></div>
+        </div>
+        <!-- Social links -->
+        <div class="row justify-content-center social pb-4">
+            <!-- IN -->
+            <div class="social-wrap">
+                <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- TW -->
+            <div class="social-wrap">
+                <a href="https://twitter.com/?lang=en" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <!-- FB -->
+            <div class="social-wrap">
+                <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <!-- PI -->
+            <div class="social-wrap">
+                <a href="https://www.pinterest.ie/" class="social-link" target="_blank"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+        <!-- Copy -->
+        <div class="row justify-content-center copy">
+            <div class="col-10 col-sm-6 text-center copy-ts">
+                <p>&#169; NewIrishLife 2020 | All rights reserved</p>
+            </div>
+            <div class="col-8 col-sm-6 text-center copy-ts">
+                <p>Design by <a href="http://www.tomislavsokac.com/home" target="_blank">www.tomislavsokac.com</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
