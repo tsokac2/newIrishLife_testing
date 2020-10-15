@@ -8,44 +8,343 @@
     <!-- Meta Description -->
     <meta name="description" content="-- content --">
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/c8a0926547.js" crossorigin="anonymous"></script>
     <!-- Custom Scss/Css -->
-
+    <link rel="stylesheet" href="public/css/index.css">
     <!-- Angular JS form Root Source Folder + UiRouter CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.0/angular.js" integrity="sha512-CiKQCmN86Y1I8Ewkt2gGnSNmsiVrS9Ez5MoudCBhTiBJScg+GjA9OlKdaeI0IuxdCl43Fs5x5zpeew2hfOatOA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.0/angular-route.js" integrity="sha512-2IRHPsyDdFUkxs5Xtuea5UCHYoUjrmNlXqLS6BVCkn4wJUr1BhG8LuLdmcbqCxynWiqfqgc8H7elEib7SV8o8Q==" crossorigin="anonymous"></script>
 
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-light fixed-top main-menu">
-  
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item ho-item"><a class="nav-link link-item sliding-middle-out" href="home">Home</span></a></li>
-        <li class="nav-item pr-item"><a class="nav-link link-item sliding-middle-out" href="trip">Trip</a></li>
-        <li class="nav-item ex-item"><a class="nav-link link-item sliding-middle-out" href="work">Work</a></li>
-        <li class="nav-item sk-item"><a class="nav-link link-item sliding-middle-out" href="life">Life</a></li>
-      </ul>
+
+<!--LEFT NAV-->
+<nav class="container-fluid d-none d-md-block">
+    <div class="row justify-content-center">
+        <div class="col col-lg-10">
+            <div class="row justify-content-center text-center">
+                <!-- Left Nav -->
+                <div class="col text-center left">
+                    <div class="row justify-content-center">
+                        <a class="text-decoration-none  left-wrap border-right" href="home">HOME</a>
+                        <a class="text-decoration-none  left-wrap border-right" href="trip">TRIP</a>
+                        <a class="text-decoration-none  left-wrap border-right" href="work">WORK</a>
+                        <a class="text-decoration-none  left-wrap " href="life">LIFE</a>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col-3 mt-4">
+                    <a  href="home"><img src="public\img\Logo.png" width="100" alt="New Irish Logo"></a>
+                </div>
+                <!-- Right Nav -->
+                <div class="col right">
+                   <div class="row justify-content-between">
+                       <div class="col-7 text-left search-wrap">
+                            <input type="search" id="search" placeholder="Search here">
+                            <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                       </div>
+                        
+                       <!-- Log in  - Sing In-->
+                       <div class="col-4 text-right side-icons-wrap">
+                            <a href="#" class="sing" data-toggle="modal" data-target="#sing-in" ><i class="fas fa-user-plus"></i></a>
+                            <a href="#" class="log" data-toggle="modal" data-target="#log-in"><i class="fas fa-sign-in-alt"></i></a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
+</nav> 
 
 
-  <!-- SECTION AREA -->
-  <div class="container-fluid section"> <!-- MAIN CONTAINER -->
-    <div class="row"> <!-- MAIN ROW -->
-      <div ng-view class="col"> <!-- MAIN SECTION COL-->
-        <!-- views Loadings -->
+<!-- Nav Mobile -->
+<div class="container-fluid d-md-none border-bottom">
+    <div class="row justify-content-center mobile-nav-wrap">
+        <div class="col mobile-nav-search">
+            <form action="post">
+                <input type="search" id="searchMobile" placeholder="Search here">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </form>
+        </div>
+
+        <div class="col-3 text-center">
+            <a  href="home" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <img class="img-fluid" src="public\img\Logo.png" width="60" alt="New Irish Logo">
+            </a>
+        </div>
+
+        <div class="col text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- Nav Mobile Collapsed Grid Elements -->
+<nav class="navbar navbar-expand-lg navbar-light nav-padding d-md-none">
+    <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+        <div class="nav-mobile">
+            <div class="wrap">
+                <a href="home" class="link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <i class="fas fa-home icon"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+
+            <div class="wrap">
+                <a href="trip" class="link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <i class="fas fa-plane-departure"></i>
+                    <span>Trip</span>
+                </a>
+            </div>
+
+            <div class="wrap">
+                <a href="work" class="link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Work</span>
+                </a>
+            </div>
+
+            <div class="wrap">
+                <a href="life" class="link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <i class="fas fa-hand-spock"></i>
+                    <span>Life</span>
+                </a>
+            </div>
+
+            <div class="wrap">
+                <a href="#" class="link" data-toggle="modal" data-target="#sing-in">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Sing Up</span>
+                </a>
+            </div>
+
+            <div class="wrap">
+                <a href="#" class="link" data-toggle="modal" data-target="#log-in">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+ <!-- Modal Sing In -->
+ <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content sing-in-modal">    
+            <div class="p-2">
+                <div class="btn-close">
+                    <a href="#" class="close-x" data-dismiss="modal"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="container-fluid p-0">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12">
+                            <h2>Create Account</h2>
+                            <p>It's free and hardly takes more than 30 seconds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <form action="post" class="text-center">
+                                <div class="row justify-content-center">
+                                    <!-- Username -->
+                                    <div class="col-10">
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user"></i></span>
+                                            <input type="text" id="username" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <!-- Email Address -->
+                                    <div class="col-10 mtt">
+                                        <div class="input-group">
+                                            <span><i class="far fa-paper-plane"></i></span>
+                                            <input type="email" id="email" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <!-- Password -->
+                                    <div class="col-10 mtt">
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user-lock"></i></span>
+                                            <input type="password" id="password" placeholder="Password" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 mtt">
+                                        <div class="input-group">
+                                            <span><i class="fas fa-lock"></i></span>
+                                            <input type="password" id="password-c" placeholder="Confirm Password" required>
+                                        </div>
+                                    </div>
+                                    <!--Submit Button -->
+                                    <div class="col-10 text-center mtt">
+                                        <button type="submit" class="sub-button">SING UP</button>
+                                    </div>
+                                    <div class="col-10 text-center mtt">
+                                    <p>By clicking the Sign Up button, you agree to our 
+                                        <a href="https://www.privacypolicyonline.com/live.php?token=IMj9TW9eb3ChJcdsqhVgrUpg1siitImu" target="_blank">Privacy Policy.</a></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Log In -->
+<div class="modal fade" id="log-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content sing-in-modal">    
+            <div class="p-2">
+                <div class="btn-close">
+                    <a href="#" class="close-x" data-dismiss="modal"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="container-fluid p-0">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12">
+                            <h2>Welcome back</h2>
+                            <p>Enter your login details:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <form action="post" class="text-center">
+                                <div class="row justify-content-center">
+                                    <!-- Username - Email -->
+                                    <div class="col-10">
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user"></i></span>
+                                            <input type="text" id="username" placeholder="Username or Email">
+                                        </div>
+                                    </div>
+                                    <!-- Password -->
+                                    <div class="col-10 mtt">
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user-lock"></i></span>
+                                            <input type="password" id="password" placeholder="Password" required>
+                                        </div>
+                                    </div>
+                                    <!--Submit Button -->
+                                    <div class="col-10 text-center mtt">
+                                        <button type="submit" class="sub-button">LOGIN</button>
+                                    </div>
+                                    <div class="col-10 text-center mtt">
+                                        <p><i class="fas fa-handshake"></i></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SECTION AREA -->
+    <!-- MAIN CONTAINER -->
+    <div class="container-fluid">
+        <!-- MAIN ROW --> 
+        <div class="row justify-content-center p-4"> 
+            <!-- Angular Route Directive-->
+            <div ng-view class="col"> 
+                <!-- views Loadings -->
+
+                <!-- ---------- COPY FROM HERE ----------- -->
 
 
 
-        <!-- views Loadings -->
-      </div>
-    </div> <!--END OF CONTENT ROW -->
 
-    </div> <!-- End of MAIN SECTION COL-->
-    
+             
+
+
+                <!-- ---------- COPY FROM HERE ----------- -->
+
+                <!-- views Loadings -->
+            </div><!---->
+        </div><!---->
+    </div><!---->
+
+<!-- FOOTER -->
+    <footer class="container-fluid">
+        <div class="row justify-content-center border-top">
+            <!-- Left Nav -->
+            <div class="col-12 text-center info">
+                <ul class="link-wrap">
+                    <li class="r"><a class="text-decoration-none flex-link" href="home">HOME</a> </li>
+                    <li class="r"><a class="text-decoration-none flex-link" href="trip">TRIP</a></li>
+                    <li><a class="text-decoration-none flex-link" href="work">WORK</a></li>
+                    <li class="l"><a class="text-decoration-none flex-link " href="life">LIFE</a></li>
+                  </ul>
+            </div>
+            <div class="col col-lg-10">
+                <!-- Footer New Letter -->
+                <div class="row justify-content-center news">
+                    <div class="col-12 text-center">
+                        <h2>Get monthly updates and free resources</h2>
+                        <form action="post" class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-10">
+                                    <input type="email" id="newsletter" class="col-7 text-center" placeholder="Enter your email address*" required>
+                                </div>
+                                <div class="col-7 col-sm-4 text-center mt-4">
+                                    <button type="submit" class="news-btn">SUBSCRIBE</button>
+                                </div>
+                            </div>
+                        </form>
+                       
+                    </div>
+                </div>
+                <!-- Breaking point -->
+                <div class="row justify-content-center footer-line">
+                    <div class="col-2 l"></div>
+                    <div class="col-1 g"></div>
+                    <div class="col-2 l"></div>
+                </div>
+                <!-- Social links -->
+                <div class="row justify-content-center social pb-4">
+                    <!-- IN -->
+                    <div class="social-wrap">
+                        <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- TW -->
+                    <div class="social-wrap">
+                        <a href="https://twitter.com/?lang=en" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <!-- FB -->
+                    <div class="social-wrap">
+                        <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <!-- PI -->
+                    <div class="social-wrap">
+                        <a href="https://www.pinterest.ie/" class="social-link" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <!-- Copy -->
+                <div class="row justify-content-center copy">
+                    <div class="col-10 col-sm-6 text-center copy-ts">
+                        <p>&#169; NewIrishLife 2020 | All rights reserved</p>
+                    </div>
+                    <div class="col-8 col-sm-6 text-center copy-ts">
+                        <p>Design by <a href="http://www.tomislavsokac.com/home" target="_blank">www.tomislavsokac.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!---->
+
 
     <!-- Custom AngularJS App +  Route + Controller JS -->
         <script src="source/app.js"></script>
