@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/*--- COLOR VARIABLES ---*/
-/*--- FONT FAMILY VARIABLES ---*/
-/*--- BREAKING POINTS ---*/
+
 * {
   margin: 0;
   padding: 0; }
@@ -22,7 +20,7 @@ body {
   background-position: center center;
   background-attachment: fixed; }
 
-/*-- Breaking point --*/
+
 .footer-line {
   padding-bottom: 1rem; }
   @media (min-width: 768px) {
@@ -34,8 +32,7 @@ body {
     border-top: 1.3px solid white; }
 
 .section-home {
-  /*-- Quote --*/
-  /*-- Intro pitch --*/ }
+ }
   .section-home .quote-borders {
     background-color: rgba(8, 95, 99, 0.3); }
   .section-home .quote {
@@ -79,7 +76,7 @@ body {
     .section-home .intro-pitch .pitch-wrap {
       padding: 1rem 0;
       position: relative;
-      /*-- Overview icons --*/ }
+       }
       .section-home .intro-pitch .pitch-wrap h4 {
         font-family: "Lato", sans-serif;
         font-size: 1rem;
@@ -219,8 +216,6 @@ body {
               .section-home .intro-pitch .pitch-wrap .overview .sec-wrap p {
                 font-size: 2rem; } }
 
-.section-trip {
-  /*-- Link Cards --*/ }
   .section-trip .footer-line {
     padding-bottom: 0; }
   .section-trip h1 {
@@ -321,8 +316,6 @@ body {
             .section-trip .cards-wrap .wrap .card-link p {
               font-size: 1.5rem; } }
 
-.section-work {
-  /*-- Link Cards --*/ }
   .section-work .footer-line {
     padding-bottom: 0; }
   .section-work h1 {
@@ -423,8 +416,6 @@ body {
             .section-work .cards-wrap .wrap .card-link p {
               font-size: 1.5rem; } }
 
-.section-life {
-  /*-- Link Cards --*/ }
   .section-life .footer-line {
     padding-bottom: 0; }
   .section-life h1 {
@@ -525,7 +516,6 @@ body {
             .section-life .cards-wrap .wrap .card-link p {
               font-size: 1.5rem; } }
 
-/*-- Footer Info --*/
 .info {
   font-family: "Lato", sans-serif;
   margin-top: 2rem; }
@@ -566,7 +556,6 @@ body {
         .info .link-wrap .l {
           margin-left: 2rem; } }
 
-/*-- Footer News --*/
 .news {
   font-family: "Lato", sans-serif;
   margin-top: 2rem;
@@ -615,7 +604,7 @@ body {
       background-color: #1d2528;
       color: #86c1bf; }
 
-/*-- Social Links --*/
+
 .social {
   font-family: "Lato", sans-serif; }
   .social-wrap {
@@ -640,7 +629,7 @@ body {
         color: #86c1bf;
         transition: width .3s ease, color .3s ease; }
 
-/*-- Copy --*/
+
 .copy {
   font-family: "Lato", sans-serif;
   background-color: rgba(103, 143, 169, 0.3);
@@ -659,7 +648,6 @@ body {
         color: #1d2528;
         transition: width .3s ease, color .3s ease; }
 
-/*-- Nav Desktop --*/
 .left {
   font-family: "Lato", sans-serif;
   margin-top: 4rem; }
@@ -670,7 +658,6 @@ body {
     width: 9rem;
     height: 7rem;
     font-size: 1.7rem;
-    text-decoration: none;
     color: rgba(8, 95, 99, 0.8);
     text-decoration: none; }
     @media (min-width: 1200px) {
@@ -735,13 +722,7 @@ body {
       font-size: 1.5rem;
       text-decoration: none;
       color: rgba(8, 95, 99, 0.8); }
-      /* .right .side-icons-wrap .log i {
-          -webkit-transform: rotateX(-90deg);
-            -moz-transform: rotateX(-90deg);
-            -ms-transform: rotateX(-90deg); 
-            -o-transform: rotateX(-90deg);
-                transform: rotateX(-90deg);
-         } */
+    
       @media (min-width: 992px) {
         .right .side-icons-wrap .log {
           font-size: 2rem; } }
@@ -749,7 +730,6 @@ body {
         color: rgba(8, 95, 99, 0.4);
         transition: .5s ease; }
 
-/*-- Nav Mobile - Header --*/
 .mobile-nav-wrap {
   font-family: "Lato", sans-serif;
   padding: 1rem 0; }
@@ -791,7 +771,6 @@ body {
     .mobile-nav-wrap button i {
       font-size: 1.8rem; }
 
-/*-- Grid Items Nav Mobile --*/
 .nav-padding {
   padding: 0; }
 
@@ -807,7 +786,6 @@ body {
   .nav-mobile .wrap {
     padding: 0;
     border: 1px solid rgba(201, 201,201, .5);
-    /*border:1px solid rgba(201, 201, 201, .5);*/
     background-color: rgba(83, 100, 145, 0.2); }
     .nav-mobile .wrap .link {
       display: flex;
@@ -874,7 +852,6 @@ body {
       color: rgba(8, 95, 99, 0.8); }
     .sing-in-modal .input-group input {
       background-color: transparent;
-      font-size: 1rem;
       border: none;
       border-bottom: 1px solid #86c1bf;
       text-indent: 35px;
