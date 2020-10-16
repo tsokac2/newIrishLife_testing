@@ -102,9 +102,9 @@ Development and testing cycle in order as follow:
 
 Testing tools:
 
-MOZILLA FIREFOX -   https://www.google.com/chrome
+MOZILLA FIREFOX -   https://www.mozilla.org/en-US/firefox/new/
 
-GOOGLE CHROME   -   https://www.mozilla.org/en-US/firefox/new/
+GOOGLE CHROME   -   https://www.google.com/chrome 
 
 GITPOD          -   https://www.gitpod.io/
 * server startup: `python3 -m http.server`
