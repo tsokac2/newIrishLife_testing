@@ -86,8 +86,9 @@ Expansion plan:
 
 * Libery URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
-**NODE.JS** -  is an open-source, cross-platform, back-end, JavaScript runtime environment - <a href="https://nodejs.org/en/" target="_blank">
-**NPM** - Package manager - Use package - npm i node-sass - <a href="https://www.npmjs.com/" target="_blank">
+**NODE.JS** -  is an open-source, cross-platform, back-end, JavaScript runtime environment - href="https://nodejs.org/en/
+
+**NPM** - Package manager - Use package - npm i node-sass - https://www.npmjs.com/
 
 **GIT** - usage for project deployment
 
@@ -113,7 +114,8 @@ GITPOD          -   https://www.gitpod.io/
 * server startup: `python3 -m http.server`
 
 Code validation platforms:
-W3C Markup Validation Service -   <a href="https://validator.w3.org/" target="_blank">
+
+W3C Markup Validation Service - https://validator.w3.org/
 
 ## DEPLOYMNET
 
