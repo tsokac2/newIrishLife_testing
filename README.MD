@@ -113,6 +113,8 @@ W3C Markup Validation Service -   <a href="https://validator.w3.org/" target="_b
 
 Project link - [newIrishLife](https://tsokac2.github.io/newIrishLife/)
 
+http://github.com - automatic!
+
 
 ## CREDITS 
 
