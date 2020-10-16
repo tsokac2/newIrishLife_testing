@@ -64,7 +64,7 @@ body {
           font-size: 1.2rem; } }
       @media (min-width: 1200px) {
         .section-home .quote p {
-          font-size: 1.5; } }
+          font-size: 1.5rem; } }
     .section-home .quote .gandalf {
       margin: 0.5rem 0; }
       @media (min-width: 576px) {
@@ -130,7 +130,7 @@ body {
             font-size: 2.1rem;
             margin: 1.5rem 0; } }
       .section-home .intro-pitch .pitch-wrap .composition {
-        margin-top:  2rem; }
+        margin-top:2rem; }
         .section-home .intro-pitch .pitch-wrap .composition .comp-photo {
           width: 50%;
           border-radius: 2px;
@@ -735,8 +735,13 @@ body {
       font-size: 1.5rem;
       text-decoration: none;
       color: rgba(8, 95, 99, 0.8); }
-      .right .side-icons-wrap .log i {
-        rotate: -90deg; }
+      /* .right .side-icons-wrap .log i {
+          -webkit-transform: rotateX(-90deg);
+            -moz-transform: rotateX(-90deg);
+            -ms-transform: rotateX(-90deg); 
+            -o-transform: rotateX(-90deg);
+                transform: rotateX(-90deg);
+         } */
       @media (min-width: 992px) {
         .right .side-icons-wrap .log {
           font-size: 2rem; } }
@@ -801,7 +806,8 @@ body {
       padding: 0 3rem; } }
   .nav-mobile .wrap {
     padding: 0;
-    border:  1px solid  rgba(201, 201, 201, 0.5);
+    border: 1px solid rgba(201, 201,201, .5);
+    /*border:1px solid rgba(201, 201, 201, .5);*/
     background-color: rgba(83, 100, 145, 0.2); }
     .nav-mobile .wrap .link {
       display: flex;
