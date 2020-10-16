@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Irish Life | Travel | Work | Experience | Life Style</title>
-    <!-- Meta Description -->
-    <meta name="description" content="-- content --">
-    <!-- Bootstrap CDN -->
+    <meta name="description" content="Web-based travel guide for providing correct information how easily start living and working in Ireland">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- Font Awesome CDN - Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/c8a0926547.js" crossorigin="anonymous"></script>
-    <!-- Custom Scss/Css -->
     <link rel="stylesheet" href="public/css/index.css">
 </head>
 <body>
-    <!-- <base href="/"> -->
-<!--LEFT NAV-->
 <nav class="container-fluid d-none d-md-block">
     <div class="row justify-content-center">
         <div class="col col-lg-10">
             <div class="row justify-content-center text-center">
-                <!-- Left Nav -->
                 <div class="col text-center left">
                     <div class="row justify-content-center">
                         <a class="text-decoration-none  left-wrap border-right" href="index.html">HOME</a>
@@ -31,19 +24,15 @@
                         <a class="text-decoration-none  left-wrap " href="life.html">LIFE</a>
                     </div>
                 </div>
-                <!-- Logo -->
                 <div class="col-3 mt-4">
                     <a  href="index.html"><img src="public/img/Logo.png" width="100" alt="New Irish Logo"></a>
                 </div>
-                <!-- Right Nav -->
                 <div class="col right">
                    <div class="row justify-content-between">
                        <div class="col-7 text-left search-wrap">
                             <input type="search" id="search" placeholder="Search here">
                             <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
                        </div>
-                        
-                       <!-- Log in - Sing In-->
                        <div class="col-4 text-right side-icons-wrap">
                             <a href="#" class="sing" data-toggle="modal" data-target="#sing-in" ><i class="fas fa-user-plus"></i></a>
                             <a href="#" class="log" data-toggle="modal" data-target="#log-in"><i class="fas fa-sign-in-alt"></i></a>
@@ -54,7 +43,6 @@
         </div>
     </div>
 </nav> 
-<!-- Nav Mobile -->
 <div class="container-fluid d-md-none border-bottom">
     <div class="row justify-content-center mobile-nav-wrap">
         <div class="col mobile-nav-search">
@@ -63,13 +51,11 @@
                 <a href="#"><i class="fas fa-search"></i></a>
             </form>
         </div>
-
         <div class="col-3 text-center">
             <a  href="index.html">
                 <img class="img-fluid" src="public/img/Logo.png" width="60" alt="New Irish Logo">
             </a>
         </div>
-
         <div class="col text-right">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -77,7 +63,6 @@
         </div>
     </div>
 </div>
-<!-- Nav Mobile Collapsed Grid Elements -->
 <nav class="navbar navbar-expand-lg navbar-light nav-padding d-md-none">
     <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
         <div class="nav-mobile">
@@ -87,21 +72,18 @@
                     <span>Home</span>
                 </a>
             </div>
-
             <div class="wrap">
                 <a href="trip.html" class="link" >
                     <i class="fas fa-plane-departure"></i>
                     <span>Trip</span>
                 </a>
             </div>
-
             <div class="wrap">
                 <a href="work.html" class="link" >
                     <i class="fas fa-user-tie"></i>
                     <span>Work</span>
                 </a>
             </div>
-
             <div class="wrap">
                 <a href="life.html" class="link" >
                     <i class="fas fa-hand-spock"></i>
@@ -115,7 +97,6 @@
                     <span>Sing Up</span>
                 </a>
             </div>
-
             <div class="wrap">
                 <a href="#" class="link" data-toggle="modal" data-target="#log-in">
                     <i class="fas fa-sign-in-alt"></i>
@@ -125,8 +106,6 @@
         </div>
     </div>
 </nav>
-
- <!-- Modal Sing In -->
  <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="sing-in" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content sing-in-modal">    
@@ -149,21 +128,18 @@
                         <div class="col-12">
                             <form action="post" class="text-center">
                                 <div class="row justify-content-center">
-                                    <!-- Username -->
                                     <div class="col-10">
                                         <div class="input-group">
                                             <span><i class="fas fa-user"></i></span>
                                             <input type="text" id="username" placeholder="Username">
                                         </div>
                                     </div>
-                                    <!-- Email Address -->
                                     <div class="col-10 mtt">
                                         <div class="input-group">
                                             <span><i class="far fa-paper-plane"></i></span>
                                             <input type="email" id="email" placeholder="Email Address">
                                         </div>
                                     </div>
-                                    <!-- Password -->
                                     <div class="col-10 mtt">
                                         <div class="input-group">
                                             <span><i class="fas fa-user-lock"></i></span>
@@ -176,7 +152,6 @@
                                             <input type="password" id="password-c" placeholder="Confirm Password" required>
                                         </div>
                                     </div>
-                                    <!--Submit Button -->
                                     <div class="col-10 text-center mtt">
                                         <button type="submit" class="sub-button">SING UP</button>
                                     </div>
@@ -193,8 +168,6 @@
         </div>
     </div>
 </div>
-
-<!-- Modal Log In -->
 <div class="modal fade" id="log-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="log-in" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content sing-in-modal">    
@@ -217,21 +190,18 @@
                         <div class="col-12">
                             <form action="post" class="text-center">
                                 <div class="row justify-content-center">
-                                    <!-- Username - Email -->
                                     <div class="col-10">
                                         <div class="input-group">
                                             <span><i class="fas fa-user"></i></span>
                                             <input type="text" id="username-log" placeholder="Username or Email">
                                         </div>
                                     </div>
-                                    <!-- Password -->
                                     <div class="col-10 mtt">
                                         <div class="input-group">
                                             <span><i class="fas fa-user-lock"></i></span>
                                             <input type="password" id="password-log" placeholder="Password" required>
                                         </div>
                                     </div>
-                                    <!--Submit Button -->
                                     <div class="col-10 text-center mtt">
                                         <button type="submit" class="sub-button">LOGIN</button>
                                     </div>
@@ -247,19 +217,11 @@
         </div>
     </div>
 </div>
-
-
-
-<!-- SECTION AREA -->
-    <!-- MAIN CONTAINER -->
     <div class="container-fluid">
-        <!-- MAIN ROW --> 
         <div class="row justify-content-center p-4"> 
             <div class="col">
-                <!--WORK - INTRO PITCH - SECTION ICONS -->
                 <section class="section-work">
                     <div class="row justify-content-center">
-                        <!-- Breaking point -->
                         <div class="col text-center m-0">
                             <div class="row justify-content-center footer-line">
                                 <div class="col-4 col-sm-3 col-md-2 l"></div>
@@ -270,7 +232,6 @@
                         <div class="col-12 text-center">
                             <h1>WORK</h1>
                         </div>
-                        <!-- Intro Pitch -->
                         <div class="col-12 col-sm-8 col-md-10 col-lg-8">
                             <div class="row justify-content-center">
                                 <div class="col col-md-8 text-center  intro-trip">
@@ -292,8 +253,6 @@
                         <div class="col-12 text-center">
                             <h1 class="sub-h1">START HERE</h1>
                         </div>
-
-                        <!-- Link Cards -->
                         <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
                             <div class="wrap">
                                 <a href="https://www.irishjobs.ie/" target="_blank" class="card-link">
@@ -303,7 +262,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-
                             <div class="wrap">
                                 <a href="https://ie.indeed.com/" target="_blank" class="card-link">
                                     <img src="public/img/indeed.png" class="img-fluid" alt="Indeed">
@@ -312,7 +270,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-                            
                             <div class="wrap">
                                 <a href="https://jobbio.com/?country=ie" target="_blank" class="card-link">
                                     <img src="public/img/jobbio.png" class="img-fluid" alt="Jobbio">
@@ -321,7 +278,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-
                             <div class="wrap">
                                 <a href="https://www.monster.ie/" target="_blank" class="card-link">
                                     <img src="public/img/monster.png" class="img-fluid" alt="Monster">
@@ -330,7 +286,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-
                             <div class="wrap">
                                 <a href="https://www.careerjet.ie/" target="_blank" class="card-link">
                                     <img src="public/img/carrer.png" class="img-fluid" alt="Carrer">
@@ -339,7 +294,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-
                             <div class="wrap">
                                 <a href="https://www.computerfutures.com/en-gb/" target="_blank" class="card-link">
                                     <img src="public/img/cf.png" class="img-fluid" alt="Computer Features">
@@ -349,8 +303,6 @@
                                 </a>
                             </div>
                         </div>
-
-                        <!-- Breaking point -->
                         <div class="col-12 text-center mt-4">
                             <div class="row justify-content-center footer-line">
                                 <div class="col-4 col-sm-3 col-md-2 l"></div>
@@ -358,12 +310,9 @@
                                 <div class="col-4 col-sm-3 col-md-2 l"></div>
                             </div>
                         </div>
-
-                        <!-- Hop On -->
                         <div class="col-12 text-center mt-4">
                             <h1 class="sub-h1">CV TIPS</h1>
                         </div>
-                        <!-- Hop On Text-->
                         <div class="col-12 col-sm-8 col-md-10 col-lg-8">
                             <div class="row justify-content-center">
                                 <div class="col col-md-8 text-center intro-trip">
@@ -376,8 +325,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Link Cards -->
                         <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
                             <div class="wrap">
                                 <a href="https://codeinstitute.net/" target="_blank" class="card-link">
@@ -387,7 +334,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-
                             <div class="wrap">
                                 <a href="https://springboardcourses.ie/" target="_blank" class="card-link">
                                     <img src="public/img/spring.png" class="img-fluid" alt="Springboard">
@@ -396,7 +342,6 @@
                                     <p><i class="fas fa-ellipsis-h"></i></p>
                                 </a>
                             </div>
-                            
                             <div class="wrap">
                                 <a href="https://www.ucd.ie" target="_blank" class="card-link">
                                     <img src="public/img/ucd.png" class="img-fluid" alt="UCD">
@@ -408,14 +353,11 @@
                         </div>
                     </div>
                 </section>
-        </div><!---->
-    </div><!---->
-</div><!---->
-
-<!-- FOOTER -->
+        </div>
+    </div>
+</div>
 <footer class="container-fluid">
 <div class="row justify-content-center border-top">
-    <!-- Left Nav -->
     <div class="col-12 text-center info">
         <ul class="link-wrap">
             <li class="r"><a class="text-decoration-none flex-link" href="index.html">HOME</a> </li>
@@ -425,7 +367,6 @@
           </ul>
     </div>
     <div class="col col-lg-10">
-        <!-- Footer New Letter -->
         <div class="row justify-content-center news">
             <div class="col-12 text-center">
                 <h2>Get monthly updates and free resources</h2>
@@ -439,35 +380,27 @@
                         </div>
                     </div>
                 </form>
-               
             </div>
         </div>
-        <!-- Breaking point -->
         <div class="row justify-content-center footer-line">
             <div class="col-2 l"></div>
             <div class="col-1 g"></div>
             <div class="col-2 l"></div>
         </div>
-        <!-- Social links -->
         <div class="row justify-content-center social pb-4">
-            <!-- IN -->
             <div class="social-wrap">
                 <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <!-- TW -->
             <div class="social-wrap">
                 <a href="https://twitter.com/?lang=en" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
-            <!-- FB -->
             <div class="social-wrap">
                 <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </div>
-            <!-- PI -->
             <div class="social-wrap">
                 <a href="https://www.pinterest.ie/" class="social-link" target="_blank"><i class="fab fa-pinterest"></i></a>
             </div>
         </div>
-        <!-- Copy -->
         <div class="row justify-content-center copy">
             <div class="col-10 col-sm-6 text-center copy-ts">
                 <p>&#169; NewIrishLife 2020 | All rights reserved</p>
@@ -479,7 +412,6 @@
     </div>
 </div>
 </footer>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
