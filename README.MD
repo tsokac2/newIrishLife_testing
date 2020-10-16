@@ -71,22 +71,50 @@ Expansion plan:
 * Offer add for recruitment agencies  - the connection between end-user and possible employer or recruitment agent
 
 ## TECHNOLOGIES USED
-HTML - Semantic elements - nav, section, footer
-CSS3
-SASS - Preprocessor - tools included -
+**HTML** - Semantic elements - nav, section, footer
+**CSS3**
+**SASS** - Preprocessor - tools included -
 * SASS Compiler -  package.json - `"scripts" {"watch" : "node-sass -o public/css public/scss/index.scss -w" }`
 * SASS interpolation
 * SASS Mixins - Responsive layout functions
 * SASS Variables
 * SASS Nesting
 
-BOOTSTRAP 4.5.3  - Mani layout control - responsive layout usage - helper classe included - example -  .mt, .pt, .d-none .d-md-block, etc...
-Libery URL: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+**BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classe included - example -  .mt, .pt, .d-none .d-md-block, etc...
+* Libery provider: <a href="https://getbootstrap.com/" target="_blank">
+* Libery URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
-NODE.JS -  is an open-source, cross-platform, back-end, JavaScript runtime environment - <a href="https://nodejs.org/en/" target="_blank">
-NPM - Package manager - Use package - npm i node-sass - <a href="https://www.npmjs.com/" target="_blank">
+**NODE.JS** -  is an open-source, cross-platform, back-end, JavaScript runtime environment - <a href="https://nodejs.org/en/" target="_blank">
+**NPM** - Package manager - Use package - npm i node-sass - <a href="https://www.npmjs.com/" target="_blank">
 
-GIT - usage for project deployment
-GITHUB - Hosting Platform - <a href="https://github.com/" target="_blank">
+**GIT** - usage for project deployment
+**GITHUB** - Hosting Platform - <a href="https://github.com/" target="_blank">
 
 ## TESTING
+Development and testing cycle in order as follow:
+* xxs max - MAX width 240px     - elemet padding - element margins - center allignmet - fluent font size
+* xxs   - MIN width 240px       - elemet padding - element margins - center allignmet - fluent font size
+* xs    - MIN width - 360px     - elemet padding - element margins - center allignmet - fluent font size
+* sm    - MIN width - 576px     - elemet padding - element margins - center allignmet - fluent font size
+* md    - MIN width - 768px     - elemet padding - element margins - center allignmet - fluent font size
+* lg    - MIN width - 992px     - elemet padding - element margins - center allignmet - fluent font size
+* xl    - MIN width - 1200px    - elemet padding - element margins - center allignmet - fluent font size
+
+Testing tools:
+MOZILLA FIREFOX -   <a href="https://www.google.com/chrome" target="_blank">
+GOOGLE CHROME   -   <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
+GITPOD          -   <a href="https://www.gitpod.io/" target="_blank">
+* server startup: `python3 -m http.server`
+
+Code validation platforms:
+W3C Markup Validation Service -   <a href="https://validator.w3.org/" target="_blank">
+
+## DEPLOYMNET
+
+Project link - [GitHub](https://tsokac2.github.io/newIrishLife/)
+
+
+## CREDITS 
+
+### Content
+*   Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - <a href="https://en.wikipedia.org/wiki/The_Hobbit_(film_series)" target="_blank">
