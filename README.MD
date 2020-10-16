@@ -1,5 +1,3 @@
-[NewIrishLife]https://tsokac2.github.io/newIrishLife/index.html
-
 # New Irish Life
 
 Web-based travel guide for providing correct information how easily start living and working in Ireland.
