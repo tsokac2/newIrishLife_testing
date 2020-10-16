@@ -101,8 +101,11 @@ Development and testing cycle in order as follow:
 * xl    - MIN width - 1200px    - elemet padding - element margins - center allignmet - fluent font size
 
 Testing tools:
+
 MOZILLA FIREFOX -   https://www.google.com/chrome
+
 GOOGLE CHROME   -   https://www.mozilla.org/en-US/firefox/new/
+
 GITPOD          -   https://www.gitpod.io/
 * server startup: `python3 -m http.server`
 
