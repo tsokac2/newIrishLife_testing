@@ -1,4 +1,4 @@
-<img src="https://tsokac2.github.io/newIrishLife/index.html" style="margin: 0;">
+[NewIrishLife]https://tsokac2.github.io/newIrishLife/index.html
 
 # New Irish Life
 
@@ -81,14 +81,17 @@ Expansion plan:
 * SASS Nesting
 
 **BOOTSTRAP 4.5.3**  - Mani layout control - responsive layout usage - helper classe included - example -  .mt, .pt, .d-none .d-md-block, etc...
-* Libery provider: <a href="https://getbootstrap.com/" target="_blank">
+
+* Libery provider: https://getbootstrap.com
+
 * Libery URL: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`
 
 **NODE.JS** -  is an open-source, cross-platform, back-end, JavaScript runtime environment - <a href="https://nodejs.org/en/" target="_blank">
 **NPM** - Package manager - Use package - npm i node-sass - <a href="https://www.npmjs.com/" target="_blank">
 
 **GIT** - usage for project deployment
-**GITHUB** - Hosting Platform - <a href="https://github.com/" target="_blank">
+
+**GITHUB** - Hosting Platform - https://github.com/
 
 ## TESTING
 Development and testing cycle in order as follow:
@@ -116,7 +119,11 @@ W3C Markup Validation Service -   <a href="https://validator.w3.org/" target="_b
 
 Project link - [newIrishLife](https://tsokac2.github.io/newIrishLife/)
 
-http://github.com - automatic!
+GITPOD  -   https://www.gitpod.io/
+
+Tools:
+* GIT - `git add . | git commit -m "Description of commit" | git push | git status 
+
 
 
 ## CREDITS 
