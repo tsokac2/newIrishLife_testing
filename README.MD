@@ -101,7 +101,7 @@ Development and testing cycle in order as follow:
 * xl    - MIN width - 1200px    - elemet padding - element margins - center allignmet - fluent font size
 
 Testing tools:
-MOZILLA FIREFOX -   <a href="https://www.google.com/chrome" target="_blank">
+MOZILLA FIREFOX -   <a href="https://www.google.com/chrome" target="_blank">Firefox</a>
 GOOGLE CHROME   -   <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
 GITPOD          -   <a href="https://www.gitpod.io/" target="_blank">
 * server startup: `python3 -m http.server`
@@ -111,7 +111,7 @@ W3C Markup Validation Service -   <a href="https://validator.w3.org/" target="_b
 
 ## DEPLOYMNET
 
-Project link - [GitHub](https://tsokac2.github.io/newIrishLife/)
+Project link - [newIrishLife](https://tsokac2.github.io/newIrishLife/)
 
 
 ## CREDITS 
