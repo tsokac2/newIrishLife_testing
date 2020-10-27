@@ -129,13 +129,22 @@ CONTRAST CHECKER - https://contrastchecker.com/
 
 **ISSUE #1** 
 
-Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
+Error: Duplicate ID username
+
+`<input type="text" id="username" placeholder="Username or Email">`
+
+SOLUTION: Create unique  ID - `id="username"` for Sign Up form  - `id="username-log"` for Login form
+
+
+**ISSUE #2** 
+
+Error: Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
 
 `<img src="assets\img\Logo.png" width="100" alt="New Irish Logo"></a>`
 
 SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/" 
 
-**ISSUE #2**
+**ISSUE #3**
 
 The aria-labelledby attribute must point to an element in the same document. 
 
