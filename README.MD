@@ -17,7 +17,10 @@ This web site is a great starting point.
 On the web, there was a lot of info about life in Ireland, but not essentials information in one place.
 Well, not anymore. *
 
-#### User Value
+#### User Story
+
+**As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet,  so I can organize my life on fun and simple life. With New Irish Life that is extremely possible!**
+
 * Definition by HOME section - inform the user of page usage and purpose.
 * Definition by TRIP section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
 * Definition by WORK section - user advice of most popular web "job-hunt" services in Ireland as well as education offers.
@@ -123,7 +126,7 @@ CONTRAST CHECKER - https://contrastchecker.com/
 
 ### W3 Validator Error's and Solutions
 
-ISSUE #1 
+**ISSUE #1** 
 
 Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
 
@@ -131,7 +134,7 @@ Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") 
 
 SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/" 
 
-ISSUE #2
+**ISSUE #2**
 
 The aria-labelledby attribute must point to an element in the same document. 
 
@@ -150,8 +153,6 @@ GITPOD  -   https://www.gitpod.io/
 
 Tools:
 * GIT - `git add . | git commit -m "Description of commit" | git push | git status 
-
-
 
 ## CREDITS 
 
