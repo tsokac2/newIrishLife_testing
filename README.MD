@@ -1,8 +1,9 @@
+# New Irish Life
+
+## From paper to code
 ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_02.png)
 ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_03.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_04.png)
 
-
-# New Irish Life
 
 Web-based travel guide for providing correct information how easily start living and working in Ireland.
 Finding work, a place to stay where to buy good cheap food in Ireland can be difficult but with the correct preparation, 
