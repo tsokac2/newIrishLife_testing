@@ -127,9 +127,9 @@ ISSUE #1
 
 Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
 
-`<img src="public\img\Logo.png" width="100" alt="New Irish Logo"></a>`
+`<img src="assets\img\Logo.png" width="100" alt="New Irish Logo"></a>`
 
-SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>`
+SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>` - change "\" to "/" 
 
 ISSUE #2
 
@@ -156,4 +156,4 @@ Tools:
 ## CREDITS 
 
 ### Content
-*   Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - <a href="https://en.wikipedia.org/wiki/The_Hobbit_(film_series)" target="_blank">
+*   Intro pitch - *"The Hobbit: An Unexpected Journey"* - Wiki - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
