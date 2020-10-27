@@ -19,7 +19,8 @@ Well, not anymore. *
 
 #### User Story
 
-**As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet,  so I can organize my life on fun and simple life. With New Irish Life that is extremely possible!**
+**As a new Irish resident, I want all NECESSARY AND IMPORTANT information for my New Irish Life in one place and available from any device connected to the internet,  so I can organize my life on fun and simple way.**
+**With New Irish Life that is extremely possible!**
 
 * Definition by HOME section - inform the user of page usage and purpose.
 * Definition by TRIP section - pitch users on quick links for travel options, regarding trip planning, prices, destinations road travel in Ireland, and major possibilities.
