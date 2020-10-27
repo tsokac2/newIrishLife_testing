@@ -116,11 +116,12 @@ GOOGLE CHROME   -   https://www.google.com/chrome
 GITPOD          -   https://www.gitpod.io/
 * server startup: `python3 -m http.server`
 
-Code validation platforms:
+CODE VALIDATION PLATFORMS - W3C Markup Validation Service - https://validator.w3.org/
 
-W3C Markup Validation Service - https://validator.w3.org/
+CONTRAST CHECKER - https://contrastchecker.com/
 
-### W3 Validator Error' and Solutions
+
+### W3 Validator Error's and Solutions
 
 ISSUE #1 
 
