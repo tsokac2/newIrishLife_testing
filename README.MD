@@ -1,3 +1,5 @@
+![alt text](https://github.com/tsokac2/newIrishLife/blob/master/assets/wireframe/w_01.png)
+
 # New Irish Life
 
 Web-based travel guide for providing correct information how easily start living and working in Ireland.
