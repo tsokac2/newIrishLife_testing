@@ -107,7 +107,7 @@ Development and testing cycle in order as follow:
 * lg    - MIN width - 992px     - elemet padding - element margins - center allignmet - fluent font size
 * xl    - MIN width - 1200px    - elemet padding - element margins - center allignmet - fluent font size
 
-Testing tools:
+ ### Testing tools
 
 MOZILLA FIREFOX -   https://www.mozilla.org/en-US/firefox/new/
 
@@ -119,6 +119,27 @@ GITPOD          -   https://www.gitpod.io/
 Code validation platforms:
 
 W3C Markup Validation Service - https://validator.w3.org/
+
+### W3 Validator Error' and Solutions
+
+ISSUE #1 
+
+Bad value public\img\Logo.png for attribute src on element img: Backslash ("\") used as path segment delimiter.
+
+`<img src="public\img\Logo.png" width="100" alt="New Irish Logo"></a>`
+
+SOLUTION: `<img src="assets/img/Logo.png" width="100" alt="New Irish Logo"></a>`
+
+ISSUE #2
+
+The aria-labelledby attribute must point to an element in the same document. 
+
+`<div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">`
+
+SOLUTION: ` <div class="modal fade" id="sing-in" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="sing-in" aria-hidden="true">`
+
+SOLUTION SOURCE -  https://stackoverflow.com/questions/39831658/how-to-fix-the-aria-labelledby-attribute-must-point-to-an-element-in-the-same-d
+ 
 
 ## DEPLOYMNET
 
