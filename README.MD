@@ -103,6 +103,11 @@ Expansion plan:
 
 **IDE** - Visual Studio Code - https://code.visualstudio.com/
 
+**ADOBE PHOTOSHOP** - images pereparetion - Logo Design
+
+**ADOBE ILLUSTRATOR** - Logo Design
+
+
 ## TESTING
 Development and testing cycle in order as follow:
 * xxs max - MAX width 240px     - elemet padding - element margins - center allignmet - fluent font size
