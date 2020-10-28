@@ -101,6 +101,8 @@ Expansion plan:
 
 **GITHUB** - Hosting Platform - https://github.com/
 
+**IDE** - Visual Studio Code - https://code.visualstudio.com/
+
 ## TESTING
 Development and testing cycle in order as follow:
 * xxs max - MAX width 240px     - elemet padding - element margins - center allignmet - fluent font size
