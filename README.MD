@@ -7,7 +7,8 @@
 
 
 ### Wireframes
-Image  - 01 ![View](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png)
+
+Image - 02 - [I'm an inline-style link](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png)
 
 Web-based travel guide for providing correct information how easily start living and working in Ireland.
 Finding work, a place to stay where to buy good cheap food in Ireland can be difficult but with the correct preparation, 
