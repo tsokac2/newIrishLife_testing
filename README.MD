@@ -1,5 +1,7 @@
 # New Irish Life {style=text-align:center}
 
+***
+
 
 ## From paper to code
 ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_02.png)
