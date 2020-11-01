@@ -1,7 +1,5 @@
-<h1 align="center">
-New Irish Life 
-</h1>
-***
+<h1 align="center">New Irish Life </h1>
+
 
 ## From paper to code
 ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_02.png)
