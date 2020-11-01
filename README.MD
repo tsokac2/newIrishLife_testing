@@ -2,9 +2,7 @@
 
 
 ## From paper to code
-![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_01.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_02.png)
-![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_03.png) ![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/w_04.png)
-
+![alt text](https://github.com/tsokac2/newIrishLife_testing/blob/master/public/wireframes/main.png) 
 
 
 ### Wireframes
