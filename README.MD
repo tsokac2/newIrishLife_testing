@@ -1,5 +1,6 @@
-<h1 style="text-align: center;"> New Irish Life </h1>
-<center>Centered text</center>
+<h1 align="center">
+New Irish Life 
+</h1>
 ***
 
 ## From paper to code
