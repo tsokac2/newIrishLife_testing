@@ -1,4 +1,4 @@
-# New Irish Life
+<h1 style="text-align: center;"> New Irish Life </h1>
 ***
 
 ## From paper to code
